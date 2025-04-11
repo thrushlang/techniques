@@ -13,9 +13,7 @@ The Thrush programming language takes a similar approach to Rust but is much sim
 Although this technique was named arbitrarily, its name is "**scope-bound heap deallocation**",  as its name indicates:
 
 - Manages memory according to the returns and context of a function.
-
 - Destructors are automatically created to deallocate any value found on the heap.
-
 - Frees from memory any type that is stored recursively in a complex type.
 
 #### Example:
@@ -89,11 +87,8 @@ This technique has a fixed particularity in the compilation context. With certai
 By default the types ALWAYS assigned to the stack are:
 
 - `s8, s16, s32, s64` | `u8, u16, u32, u64`
-
 - `f32, f64`
-
 - `bool`
-
 - `Array<[T; N]>` 
 
 These types are always allocated on the stack, by default, and their value is "popped" to be stored in another pointer. 
