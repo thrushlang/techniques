@@ -4,4 +4,4 @@ In this repository, we will explain in detail and concisely the techniques curre
 
 ## Memory
 
-- Automatic Memory Management
+- **[Automatic Memory Management](https://github.com/thrushlang/Techniques/blob/main/Memory/AMM.md)**
